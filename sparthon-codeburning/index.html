@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>2024 버킷리스트 페이지</title>
+    </head>
+    
+    <body class="bg">
+        <h1 class="title">Bucket List</h1>
+        <p class="msg">꿈은 이루어진다~!</p>
+        <div class="flex-row wrap">
+            <div class="bucket img1">
+                나만의 프로잭트(웹) 만들기
+            </div>
+            <div class="bucket img2">
+                바디프로필 찍기
+            </div>
+            <div class="bucket img3">
+                취업 성공하기!!
+            </div>
+            <div class="bucket img4">
+                여행가기~
+            </div>
+            <div class="bucket img5">
+                재테크
+            </div>
+            <div class="bucket img6">
+                자기계발(코딩) 실력 높이기
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만의 버킷리스트</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>나만의 버킷리스트</h1>
+        <input type="text" id="item" placeholder="버킷리스트 항목 추가">
+        <button onclick="addItem()">추가</button>
+        <ul id="list"></ul>
+        <div id="playlist">
+            <h2>플레이리스트</h2>
+            <ul id="audioList">
+                <li><button onclick="toggleAudio()">배경 음악 재생/일시정지</button></li>
+                <li><button onclick="stopAudio()">배경 음악 정지</button></li>
+            </ul>
+        </div>
+    </div>
+    <audio id="bgm" src="design/bgm.mp3"></audio>
+    <script src="main.js"></script>
+</body>
+</html>

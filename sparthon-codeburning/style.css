@@ -1,0 +1,124 @@
+/*.bg {
+background-image: url("./design/벚꽃배경2.png"),  url("./design/벚꽃배경.gif");
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0 auto;
+background-color: #141617;
+}
+
+.title {
+margin-top: 50px;
+color: #E8344E;
+}
+
+.msg {
+color: white;
+margin-bottom: 48px;
+}
+
+.bucket {
+width: 160px;
+height: 160px;
+background-size: cover;
+background-position: center;
+}
+
+.img1 {
+background-image: url("./resources/Bucket01.png");
+color: white;
+}
+
+.img2 {
+background-image: url("./resources/Bucket02.png");
+color: skyblue;
+}
+
+.img3 {
+background-image: url("./resources/Bucket03.png");
+color: skyblue;
+}
+
+.img4 {
+background-image: url("./resources/Bucket04.png");
+color: white;
+}
+
+.img5 {
+background-image: url("./resources/Bucket05.png");
+color: white;
+}
+
+.img6 {
+background-image: url("./resources/Bucket06.png");
+color: skyblue;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-image: url("./design/벚꽃배경2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(107, 3, 235, 0.1);
+}
+
+h1, h2 {
+    color: white;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+li {
+    background-image: url("design/벚꽃배경1.jpg");
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(200, 238, 253);
+    color: lightgoldenrodyellow;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#audioList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
